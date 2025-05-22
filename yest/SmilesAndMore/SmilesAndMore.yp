@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yest:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:yest="http://www.smartesting.com/yest/metamodel" name="SmilesAndMore" id="Kml6vB1fo8Dr2eOVgI1GHMKwtIAj39uh">
+  <metadata key="ProjectVersion" value="13"/>
+  <metadata key="ApplicationVersion" value="4.0.1"/>
+  <designDataDictionary id="6coVIYm49mKLkBcJBi8wrL6NldGx4Uyq" name="#designDataDictionary"/>
+  <implementationDataDictionary id="XHWpBTFqUoo1jTLAVQRJvHDYqLvGct5Q" name="#implementationDataDictionary"/>
+  <dataSetCatalog name="#catalog" id="ktK76OMmsYRB4vZtot3s5hJee9xyRW7r"/>
+</yest:Project>
