@@ -19,7 +19,6 @@
   },
   "license": "MIT",
   "author": "Oliver Schuhmacher",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test:feature": "npx cypress run --spec 'cypress/e2e/calculator/fromJira.feature'",
@@ -34,9 +33,11 @@
   },
   "devDependencies": {
     "-": "^0.0.1",
-    "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
-    "@cypress/webpack-preprocessor": "^6.0.1",
-    "cypress": "^14.0.1"
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@cypress/webpack-preprocessor": "^6.0.4",
+    "cypress": "^14.0.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   },
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": [
