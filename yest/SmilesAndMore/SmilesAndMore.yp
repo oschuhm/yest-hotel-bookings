@@ -1,7 +1,272 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yest:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:yest="http://www.smartesting.com/yest/metamodel" name="SmilesAndMore" id="Kml6vB1fo8Dr2eOVgI1GHMKwtIAj39uh">
+<yest:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:yest="http://www.smartesting.com/yest/metamodel" name="SmilesAndMore" id="Kml6vB1fo8Dr2eOVgI1GHMKwtIAj39uh">
   <metadata key="ProjectVersion" value="13"/>
   <metadata key="ApplicationVersion" value="4.0.1"/>
+  <metadata key="attachmentLocations" value="[{&quot;id&quot;:&quot;DefaultLocationId&quot;,&quot;name&quot;:&quot;#defaultAttachmentLocation&quot;}]"/>
+  <subFolders name="Login" id="UFn1CgkoofrWD5Kq6CoYntaQRxkxAVez">
+    <testElements xsi:type="yest:Workflow" id="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J" name="Verify login procedure">
+      <metadata key="jiraWorkflow_ProjectId" value="SAM"/>
+      <metadata key="jiraWorkflow_IssueTypeId" value="10006"/>
+      <metadata key="jiraWorkflow_Summary" value="Verify login procedure"/>
+      <metadata key="jiraWorkflow_ProjectName" value="Smiles And More"/>
+      <metadata key="jiraWorkflow_Status" value="UP_TO_DATE"/>
+      <metadata key="jiraWorkflow_Fields" value="{}"/>
+      <metadata key="jiraWorkflow_Key" value="SAM-5"/>
+      <metadata key="jiraWorkflow_UserUrl" value="https://mbtdemo.atlassian.net/browse/SAM-5"/>
+      <metadata key="jiraWorkflow_WorkflowVersion" value="1"/>
+      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J&quot;,&quot;yest4JiraVersion&quot;:3,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;20tyUPwxMzA54LnrGis7V8NiQfy9ds3D&quot;,&quot;bounds&quot;:[150,100,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;,&quot;name&quot;:&quot;I verify the login options&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;,&quot;kind&quot;:&quot;STEP&quot;},{&quot;id&quot;:&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;,&quot;kind&quot;:&quot;ADDITIONAL_INFORMATION&quot;,&quot;type&quot;:&quot;Story&quot;},{&quot;id&quot;:&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;,&quot;kind&quot;:&quot;ADDITIONAL_INFORMATION&quot;,&quot;type&quot;:&quot;#objective&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;6CXVc5UV58LDz6Bl20LRivVF5Z4P44zG&quot;,&quot;cells&quot;:{&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;7sb9kCehNyMSnDYTEsRNT1OA0F34teo4&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;I login with valid credentials&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;The system shows the welcome screen&quot;}],&quot;styleRanges&quot;:[]}}}]},&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;:{&quot;kind&quot;:&quot;custom&quot;,&quot;type&quot;:&quot;jira-issue&quot;,&quot;data&quot;:&quot;{\&quot;self\&quot;:\&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10437\&quot;,\&quot;key\&quot;:\&quot;SAM-1\&quot;}&quot;,&quot;rendering&quot;:&quot;SAM-1: As a travel agent I want to be able to login into the hotel booking plattform&quot;},&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;SuccessfullLogin&quot;}}},{&quot;id&quot;:&quot;jTqW4G48NSrO9Txgl9kuoIbuSfAaf9RM&quot;,&quot;cells&quot;:{&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;Eq5zcYMPlUkehjGW0q6R4d76whituOcz&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;I login with invalid credentials&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;The system shows an error&quot;}],&quot;styleRanges&quot;:[]}}}]},&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;:{&quot;kind&quot;:&quot;custom&quot;,&quot;type&quot;:&quot;jira-issue&quot;,&quot;data&quot;:&quot;{\&quot;self\&quot;:\&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10438\&quot;,\&quot;key\&quot;:\&quot;SAM-2\&quot;}&quot;,&quot;rendering&quot;:&quot;SAM-2: As head of the security department I want that only persons with valid login credentials can use the hotel reservation plattform&quot;},&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;InvalidLogin&quot;}}}]},&quot;bounds&quot;:[115,165,101,51]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3&quot;,&quot;bounds&quot;:[150,258,31,31]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2&quot;,&quot;source&quot;:&quot;20tyUPwxMzA54LnrGis7V8NiQfy9ds3D&quot;,&quot;target&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;},{&quot;id&quot;:&quot;ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK&quot;,&quot;source&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;,&quot;target&quot;:&quot;PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3&quot;}]}"/>
+      <flowElements xsi:type="yest:StartPoint" id="20tyUPwxMzA54LnrGis7V8NiQfy9ds3D" name="" outgoings="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2"/>
+      <flowElements xsi:type="yest:Task" id="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe" name="I verify the login options" incomings="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2" outgoings="ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK">
+        <table>
+          <columns xsi:type="yest:OperationColumn" id="hzYFcqpFueMQgpMHuWTzFyI36zjN6zml"/>
+          <columns xsi:type="yest:CriterionColumn" id="z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL" criterionType="Story"/>
+          <columns xsi:type="yest:CriterionColumn" id="a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5" criterionType="#objective"/>
+          <decisions id="6CXVc5UV58LDz6Bl20LRivVF5Z4P44zG">
+            <cells key="hzYFcqpFueMQgpMHuWTzFyI36zjN6zml">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
+              </value>
+            </cells>
+            <cells key="z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL">
+              <value xsi:type="yest:CustomizableCell" type="jira-issue" rendering="SAM-1: As a travel agent I want to be able to login into the hotel booking plattform" data="{&quot;self&quot;:&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10437&quot;,&quot;key&quot;:&quot;SAM-1&quot;}"/>
+            </cells>
+            <cells key="a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5">
+              <value xsi:type="yest:StringCell" value="SuccessfullLogin"/>
+            </cells>
+          </decisions>
+          <decisions id="jTqW4G48NSrO9Txgl9kuoIbuSfAaf9RM">
+            <cells key="hzYFcqpFueMQgpMHuWTzFyI36zjN6zml">
+              <value xsi:type="yest:OperationCell">
+                <operations reference="Eq5zcYMPlUkehjGW0q6R4d76whituOcz"/>
+              </value>
+            </cells>
+            <cells key="z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL">
+              <value xsi:type="yest:CustomizableCell" type="jira-issue" rendering="SAM-2: As head of the security department I want that only persons with valid login credentials can use the hotel reservation plattform" data="{&quot;self&quot;:&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10438&quot;,&quot;key&quot;:&quot;SAM-2&quot;}"/>
+            </cells>
+            <cells key="a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5">
+              <value xsi:type="yest:StringCell" value="InvalidLogin"/>
+            </cells>
+          </decisions>
+        </table>
+      </flowElements>
+      <flowElements xsi:type="yest:SequenceFlow" id="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2" name="" target="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe" source="20tyUPwxMzA54LnrGis7V8NiQfy9ds3D"/>
+      <flowElements xsi:type="yest:EndPoint" id="PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3" name="" incomings="ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK"/>
+      <flowElements xsi:type="yest:SequenceFlow" id="ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK" name="" target="PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3" source="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe"/>
+      <diagram visible="true" gridUnit="-1" diagramTypeId="com.smartesting.metamodel.WorkflowDiagram" name="Verify login procedure" pictogramLinks="//@subFolders.0/@testElements.0/@diagram/@children.0/@link //@subFolders.0/@testElements.0/@diagram/@children.1/@link //@subFolders.0/@testElements.0/@diagram/@connections.0/@link //@subFolders.0/@testElements.0/@diagram/@children.2/@link //@subFolders.0/@testElements.0/@diagram/@connections.1/@link" version="0.16.0">
+        <graphicsAlgorithm xsi:type="al:Rectangle" background="//@subFolders.0/@testElements.0/@diagram/@colors.1" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.0" lineWidth="1" transparency="0.0" width="1000" height="1000"/>
+        <children xsi:type="yest:StartPointShape" visible="true" active="true" flowNode="20tyUPwxMzA54LnrGis7V8NiQfy9ds3D">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.2" lineWidth="2" transparency="0.0" width="31" height="31" x="150" y="100" style="//@subFolders.0/@testElements.0/@diagram/@styles.0"/>
+          <link businessObjects="20tyUPwxMzA54LnrGis7V8NiQfy9ds3D"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
+        </children>
+        <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe">
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="101" height="51" x="115" y="165" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <link businessObjects="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe"/>
+          <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.1" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
+          <children xsi:type="pi:ContainerShape" visible="true">
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="I verify the login&#xD;&#xA;options"/>
+          </children>
+        </children>
+        <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3">
+          <graphicsAlgorithm xsi:type="al:Ellipse" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.5" lineWidth="4" transparency="0.0" width="31" height="31" x="150" y="258" style="//@subFolders.0/@testElements.0/@diagram/@styles.2"/>
+          <link businessObjects="PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3"/>
+          <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.1"/>
+        </children>
+        <styles id="shape-bg-green-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-green-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="188" green="221" blue="186"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles id="shape-bg-blue-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-blue-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="200" green="227" blue="238"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <styles id="shape-bg-red-id">
+          <renderingStyle>
+            <adaptedGradientColoredAreas definedStyleId="shape-bg-red-id" gradientType="0">
+              <adaptedGradientColoredAreas styleAdaption="0">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="255" blue="255"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="1">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+              <adaptedGradientColoredAreas styleAdaption="2">
+                <gradientColor>
+                  <start locationType="LOCATION_TYPE_ABSOLUTE_START" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </start>
+                  <end locationType="LOCATION_TYPE_ABSOLUTE_END" locationValue="0">
+                    <color red="255" green="144" blue="158"/>
+                  </end>
+                </gradientColor>
+              </adaptedGradientColoredAreas>
+            </adaptedGradientColoredAreas>
+          </renderingStyle>
+        </styles>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.0/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.1/@anchors.0" sequenceFlow="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <connections xsi:type="yest:SequenceFlowConnection" visible="true" active="true" start="//@subFolders.0/@testElements.0/@diagram/@children.1/@anchors.0" end="//@subFolders.0/@testElements.0/@diagram/@children.2/@anchors.0" sequenceFlow="ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK">
+          <graphicsAlgorithm xsi:type="al:Polyline" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" lineStyle="UNSPECIFIED"/>
+          <link businessObjects="ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK"/>
+          <connectionDecorators visible="true" locationRelative="true" location="1.0">
+            <graphicsAlgorithm xsi:type="al:Polygon" background="//@subFolders.0/@testElements.0/@diagram/@colors.3" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="3" filled="true" transparency="0.0">
+              <points x="-6" y="3"/>
+              <points x="1"/>
+              <points x="-6" y="-3"/>
+            </graphicsAlgorithm>
+          </connectionDecorators>
+        </connections>
+        <colors red="227" green="238" blue="249"/>
+        <colors red="255" green="255" blue="255"/>
+        <colors red="164" green="193" blue="162"/>
+        <colors red="51" green="51" blue="51"/>
+        <colors red="174" green="198" blue="207"/>
+        <colors red="239" green="126" blue="138"/>
+        <fonts name="Segoe UI" size="9"/>
+      </diagram>
+    </testElements>
+    <testElements xsi:type="yest:TestScenario" id="dg1ykVzUkWSTDb9WscH2II9EeMvbC3eo" name="SuccessfullLogin" associatedWorkflow="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J">
+      <metadata key="PublisherId" value="de055274-fdf1-46f6-b329-0c12e8394fef"/>
+      <testActions id="IJco7X27BnP6U1c0C5QGW3dS6gymas4N" operation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
+    </testElements>
+    <testElements xsi:type="yest:TestScenario" id="RDvIGT7CFCn8NZJ4i00Ej18fDmsvsJiY" name="InvalidLogin" associatedWorkflow="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J">
+      <metadata key="PublisherId" value="4cac7d57-3918-4934-a146-48d4674af2d1"/>
+      <testActions id="y5s7uC0AvwMNd7oAQOJbDHXCS2vp2HQQ" operation="Eq5zcYMPlUkehjGW0q6R4d76whituOcz"/>
+    </testElements>
+    <testElements xsi:type="yest:AutomationConfiguration" id="B7oykb7DrWEWmC2Rnb6S6VxBH174p41s" name="PublisherForLogin" publisherId="com.smartesting.publishers.cucumberxray.CucumberxrayEditor">
+      <metadata key="PublisherId" value="2b2a4e78-9ff9-4e9a-91b3-f2c54f416635"/>
+      <campaign folders="UFn1CgkoofrWD5Kq6CoYntaQRxkxAVez"/>
+      <parameters name="descriptionLevel" value="HighLevelDescriptionKind"/>
+      <parameters name="ProjectName" value="Smiles And More"/>
+      <parameters name="BasicCreateTestSet" value="false"/>
+      <parameters name="LinkedIssueType" value="Story"/>
+      <parameters name="RepoFolderName" value="/Cucumber/Login"/>
+      <parameters name="SourceList" value="C:\dev\yest-hotel-bookings\cypress\e2e\step_definitions\hotelbookings.cy.js"/>
+      <parameters name="ImplementationType" value="JAVASCRIPT"/>
+      <operationScripts testOperation="Eq5zcYMPlUkehjGW0q6R4d76whituOcz">
+        <after/>
+        <body>
+          <calls keywordId="I login with valid credentials" keywordName="Given/When I login with valid credentials" id="3nCKkLNtrXTdO9wopxBkGH8KouJGi3yP"/>
+        </body>
+        <before/>
+      </operationScripts>
+      <operationScripts testOperation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4">
+        <after/>
+        <body>
+          <calls keywordId="I login with invalid credentials" keywordName="Given/When I login with invalid credentials" id="QPOBkcEjB1a1xSESZmMcguZvYbaoKCTJ"/>
+        </body>
+        <before/>
+      </operationScripts>
+      <globalBefore/>
+      <globalAfter/>
+    </testElements>
+  </subFolders>
+  <testElements xsi:type="yest:TestOperation" id="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4">
+    <highLevelStep>
+      <action>
+        <fragments xsi:type="yest:TextField" content="I login with valid credentials"/>
+      </action>
+      <expectedResult>
+        <fragments xsi:type="yest:TextField" content="The system shows the welcome screen"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
+  <testElements xsi:type="yest:TestOperation" id="Eq5zcYMPlUkehjGW0q6R4d76whituOcz">
+    <highLevelStep>
+      <action>
+        <fragments xsi:type="yest:TextField" content="I login with invalid credentials"/>
+      </action>
+      <expectedResult>
+        <fragments xsi:type="yest:TextField" content="The system shows an error"/>
+      </expectedResult>
+    </highLevelStep>
+  </testElements>
   <designDataDictionary id="6coVIYm49mKLkBcJBi8wrL6NldGx4Uyq" name="#designDataDictionary"/>
   <implementationDataDictionary id="XHWpBTFqUoo1jTLAVQRJvHDYqLvGct5Q" name="#implementationDataDictionary"/>
   <dataSetCatalog name="#catalog" id="ktK76OMmsYRB4vZtot3s5hJee9xyRW7r"/>

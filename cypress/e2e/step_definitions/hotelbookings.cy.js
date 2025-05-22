@@ -8,3 +8,7 @@ Before(function () {
 When('I login with valid credentials', () => {
     return true
 });
+
+When('I login with invalid credentials', () => {
+    return true
+});
