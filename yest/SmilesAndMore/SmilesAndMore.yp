@@ -232,14 +232,14 @@
       <operationScripts testOperation="Eq5zcYMPlUkehjGW0q6R4d76whituOcz">
         <after/>
         <body>
-          <calls keywordId="I login with valid credentials" keywordName="Given/When I login with valid credentials" id="3nCKkLNtrXTdO9wopxBkGH8KouJGi3yP"/>
+          <calls keywordId="I login with invalid credentials" keywordName="Given/When I login with invalid credentials" id="3nCKkLNtrXTdO9wopxBkGH8KouJGi3yP"/>
         </body>
         <before/>
       </operationScripts>
       <operationScripts testOperation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4">
         <after/>
         <body>
-          <calls keywordId="I login with invalid credentials" keywordName="Given/When I login with invalid credentials" id="QPOBkcEjB1a1xSESZmMcguZvYbaoKCTJ"/>
+          <calls keywordId="I login with valid credentials" keywordName="Given/When I login with valid credentials" id="QPOBkcEjB1a1xSESZmMcguZvYbaoKCTJ"/>
         </body>
         <before/>
       </operationScripts>

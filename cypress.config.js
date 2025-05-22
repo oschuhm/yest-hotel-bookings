@@ -4,12 +4,15 @@ const webpack = require("@cypress/webpack-preprocessor");
 
 const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
 
-
+// load the environment variables from the local .env file
+require('dotenv').config();
 
 async function setupNodeEvents(on, config) {
 
     await preprocessor.addCucumberPreprocessorPlugin(on, config);
 
+    config.env.LOGIN_USER = config.env.LOGIN_USER || process.env.LOGIN_USER;
+    config.env.LOGIN_PASSWORD = config.env.LOGIN_PASSWORD || process.env.LOGIN_PASSWORD;
 
 
     on(
