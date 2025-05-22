@@ -31,11 +31,11 @@ This project serves as a **public showcase** and can act as a blueprint for simi
 
 ```mermaid
 graph TD
-  A[Yest: Modeling (.yest)] --> B[Test Case Generation (.feature)]
+  A[Yest: Modeling] --> B[Test Case Generation]
   B --> C[Xray API: Upload to Xray Cloud]
-  C --> D[Xray: Test Planning (Test Plan)]
-  D --> E[GitHub Action (planned): Automated Execution]
-  E --> F[Cypress + Cucumber: Test against Adactin Hotel App]
+  C --> D[Xray: Test Planning]
+  D --> E[GitHub Action: Automated Execution]
+  E --> F[Cypress + Cucumber: Test Execution]
 ```
 
 ---
