@@ -1,0 +1,57 @@
+{
+  "name": "yest-hotel-bookings",
+  "version": "1.0.0",
+  "description": "sample project for yest and cucumber",
+  "keywords": [
+    "yest",
+    "mbt",
+    "xray",
+    "jira",
+    "coolstuff"
+  ],
+  "homepage": "https://github.com/oschuhm/yest-hotel-bookings#readme",
+  "bugs": {
+    "url": "https://github.com/oschuhm/yest-hotel-bookings/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oschuhm/yest-hotel-bookings.git"
+  },
+  "license": "MIT",
+  "author": "Oliver Schuhmacher",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test:feature": "npx cypress run --spec 'cypress/e2e/calculator/fromJira.feature'",
+    "fetch-tests": "node ./.github/scripts/getTestsFromTestplan.js",
+    "upload-result": "node ./.github/scripts/uploadTestResultsToXrayCloud.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "axios": "^1.7.9",
+    "glob": "^11.0.1",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "-": "^0.0.1",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
+    "@cypress/webpack-preprocessor": "^6.0.1",
+    "cypress": "^14.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/e2e/step_definitions/*.cy.js"
+    ],
+    "json": {
+      "enabled": true,
+      "output": "./cypress/results/report.json"
+    },
+    "html": {
+      "enabled": true,
+      "output": "./cypress/results/report.html"
+    },
+    "pretty": {
+      "enabled": true
+    }
+  }
+}
