@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <yest:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:al="http://eclipse.org/graphiti/mm/algorithms" xmlns:pi="http://eclipse.org/graphiti/mm/pictograms" xmlns:yest="http://www.smartesting.com/yest/metamodel" name="SmilesAndMore" id="Kml6vB1fo8Dr2eOVgI1GHMKwtIAj39uh">
-  <metadata key="ProjectVersion" value="13"/>
-  <metadata key="ApplicationVersion" value="4.0.1"/>
   <metadata key="attachmentLocations" value="[{&quot;id&quot;:&quot;DefaultLocationId&quot;,&quot;name&quot;:&quot;#defaultAttachmentLocation&quot;}]"/>
+  <metadata key="ProjectVersion" value="14"/>
+  <metadata key="ApplicationVersion" value="4.1.0"/>
   <subFolders name="Login" id="UFn1CgkoofrWD5Kq6CoYntaQRxkxAVez">
     <testElements xsi:type="yest:Workflow" id="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J" name="Verify login procedure">
       <metadata key="jiraWorkflow_ProjectId" value="SAM"/>
@@ -13,18 +13,20 @@
       <metadata key="jiraWorkflow_Fields" value="{}"/>
       <metadata key="jiraWorkflow_Key" value="SAM-5"/>
       <metadata key="jiraWorkflow_UserUrl" value="https://mbtdemo.atlassian.net/browse/SAM-5"/>
-      <metadata key="jiraWorkflow_WorkflowVersion" value="1"/>
-      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J&quot;,&quot;yest4JiraVersion&quot;:3,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;20tyUPwxMzA54LnrGis7V8NiQfy9ds3D&quot;,&quot;bounds&quot;:[150,100,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;,&quot;name&quot;:&quot;I verify the login options&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;,&quot;kind&quot;:&quot;STEP&quot;},{&quot;id&quot;:&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;,&quot;kind&quot;:&quot;ADDITIONAL_INFORMATION&quot;,&quot;type&quot;:&quot;Story&quot;},{&quot;id&quot;:&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;,&quot;kind&quot;:&quot;ADDITIONAL_INFORMATION&quot;,&quot;type&quot;:&quot;#objective&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;6CXVc5UV58LDz6Bl20LRivVF5Z4P44zG&quot;,&quot;cells&quot;:{&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;7sb9kCehNyMSnDYTEsRNT1OA0F34teo4&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;I login with valid credentials&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;The system shows the welcome screen&quot;}],&quot;styleRanges&quot;:[]}}}]},&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;:{&quot;kind&quot;:&quot;custom&quot;,&quot;type&quot;:&quot;jira-issue&quot;,&quot;data&quot;:&quot;{\&quot;self\&quot;:\&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10437\&quot;,\&quot;key\&quot;:\&quot;SAM-1\&quot;}&quot;,&quot;rendering&quot;:&quot;SAM-1: As a travel agent I want to be able to login into the hotel booking plattform&quot;},&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;SuccessfullLogin&quot;}}},{&quot;id&quot;:&quot;jTqW4G48NSrO9Txgl9kuoIbuSfAaf9RM&quot;,&quot;cells&quot;:{&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;Eq5zcYMPlUkehjGW0q6R4d76whituOcz&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;I login with invalid credentials&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;The system shows an error&quot;}],&quot;styleRanges&quot;:[]}}}]},&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;:{&quot;kind&quot;:&quot;custom&quot;,&quot;type&quot;:&quot;jira-issue&quot;,&quot;data&quot;:&quot;{\&quot;self\&quot;:\&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10438\&quot;,\&quot;key\&quot;:\&quot;SAM-2\&quot;}&quot;,&quot;rendering&quot;:&quot;SAM-2: As head of the security department I want that only persons with valid login credentials can use the hotel reservation plattform&quot;},&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;InvalidLogin&quot;}}}]},&quot;bounds&quot;:[115,165,101,51]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3&quot;,&quot;bounds&quot;:[150,258,31,31]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2&quot;,&quot;source&quot;:&quot;20tyUPwxMzA54LnrGis7V8NiQfy9ds3D&quot;,&quot;target&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;},{&quot;id&quot;:&quot;ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK&quot;,&quot;source&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;,&quot;target&quot;:&quot;PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3&quot;}]}"/>
+      <metadata key="jiraWorkflow_WorkflowVersion" value="3"/>
+      <metadata key="jiraWorkflow_WorkflowContent" value="{&quot;id&quot;:&quot;mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J&quot;,&quot;yest4JiraVersion&quot;:3,&quot;groups&quot;:[],&quot;nodes&quot;:[{&quot;type&quot;:&quot;start&quot;,&quot;id&quot;:&quot;20tyUPwxMzA54LnrGis7V8NiQfy9ds3D&quot;,&quot;bounds&quot;:[150,100,31,31]},{&quot;type&quot;:&quot;task&quot;,&quot;id&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;,&quot;name&quot;:&quot;Login Funktionalität prüfen&quot;,&quot;table&quot;:{&quot;columns&quot;:[{&quot;id&quot;:&quot;HfFjZh8imanyj393MZe3SK6wE44qUeJt&quot;,&quot;kind&quot;:&quot;SET&quot;,&quot;dataName&quot;:&quot;UserName&quot;,&quot;dataType&quot;:&quot;ENUMERATION&quot;},{&quot;id&quot;:&quot;qcDXmYweqWb6Ih02miiTFqJRGE7A4Yf7&quot;,&quot;kind&quot;:&quot;SET&quot;,&quot;dataName&quot;:&quot;Password&quot;,&quot;dataType&quot;:&quot;ENUMERATION&quot;},{&quot;id&quot;:&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;,&quot;kind&quot;:&quot;STEP&quot;},{&quot;id&quot;:&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;,&quot;kind&quot;:&quot;ADDITIONAL_INFORMATION&quot;,&quot;type&quot;:&quot;Story&quot;},{&quot;id&quot;:&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;,&quot;kind&quot;:&quot;ADDITIONAL_INFORMATION&quot;,&quot;type&quot;:&quot;#objective&quot;}],&quot;decisions&quot;:[{&quot;id&quot;:&quot;6CXVc5UV58LDz6Bl20LRivVF5Z4P44zG&quot;,&quot;cells&quot;:{&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;SuccessfullLogin&quot;},&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;7sb9kCehNyMSnDYTEsRNT1OA0F34teo4&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Ich logge mich mit gültigen Anmeldedaten im Buchungssystem ein&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Die Startseite des Buchungssystems wird angezeigt&quot;}],&quot;styleRanges&quot;:[]}},&quot;lowLevels&quot;:[{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Ich logge mich mit gültigen Anmeldedaten im Buchungssystem ein.\r\nUser: &quot;},{&quot;kind&quot;:&quot;field&quot;,&quot;dataKind&quot;:&quot;implementation&quot;,&quot;dataName&quot;:&quot;impUserName&quot;,&quot;dataType&quot;:&quot;ENUMERATION&quot;},{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;\r\nPasswort: &quot;},{&quot;kind&quot;:&quot;field&quot;,&quot;dataKind&quot;:&quot;implementation&quot;,&quot;dataName&quot;:&quot;impPassword&quot;,&quot;dataType&quot;:&quot;ENUMERATION&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Die Startseite des Buchungssystems wird angezeigt&quot;}],&quot;styleRanges&quot;:[]}}],&quot;prerequisite&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Die Login Seite meines Buchungssystems wurde erfolgreich aufgerufen&quot;}],&quot;styleRanges&quot;:[]}}]},&quot;qcDXmYweqWb6Ih02miiTFqJRGE7A4Yf7&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;valid&quot;,&quot;expression&quot;:{&quot;kind&quot;:&quot;comparison&quot;,&quot;operator&quot;:&quot;EQUAL&quot;,&quot;operand&quot;:{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;valid&quot;}}},&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;:{&quot;kind&quot;:&quot;custom&quot;,&quot;type&quot;:&quot;jira-issue&quot;,&quot;data&quot;:&quot;{\&quot;self\&quot;:\&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10437\&quot;,\&quot;key\&quot;:\&quot;SAM-1\&quot;}&quot;,&quot;rendering&quot;:&quot;SAM-1: As a travel agent I want to be able to login into the hotel booking plattform&quot;},&quot;HfFjZh8imanyj393MZe3SK6wE44qUeJt&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;valid&quot;,&quot;expression&quot;:{&quot;kind&quot;:&quot;comparison&quot;,&quot;operator&quot;:&quot;EQUAL&quot;,&quot;operand&quot;:{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;valid&quot;}}}}}],&quot;elseDecision&quot;:{&quot;id&quot;:&quot;jTqW4G48NSrO9Txgl9kuoIbuSfAaf9RM&quot;,&quot;cells&quot;:{&quot;a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;InvalidLogin&quot;},&quot;hzYFcqpFueMQgpMHuWTzFyI36zjN6zml&quot;:{&quot;kind&quot;:&quot;operation&quot;,&quot;operations&quot;:[{&quot;id&quot;:&quot;Eq5zcYMPlUkehjGW0q6R4d76whituOcz&quot;,&quot;highLevel&quot;:{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Ich versuche mich mit ungültigen Zugangsdaten im System anzumelden&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Das System zeigt mir eine Fehlermeldung und ich bin nicht eingeloggt.&quot;}],&quot;styleRanges&quot;:[]}},&quot;lowLevels&quot;:[{&quot;action&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Ich versuche mich mit ungültigen Zugangsdaten im System anzumelden.\r\nUser: &quot;},{&quot;kind&quot;:&quot;field&quot;,&quot;dataKind&quot;:&quot;implementation&quot;,&quot;dataName&quot;:&quot;impUserName&quot;,&quot;dataType&quot;:&quot;ENUMERATION&quot;},{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;\r\nPasswort: &quot;},{&quot;kind&quot;:&quot;field&quot;,&quot;dataKind&quot;:&quot;implementation&quot;,&quot;dataName&quot;:&quot;impPassword&quot;,&quot;dataType&quot;:&quot;ENUMERATION&quot;}],&quot;styleRanges&quot;:[]},&quot;result&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Das System zeigt mir eine Fehlermeldung und ich bin nicht eingeloggt.&quot;}],&quot;styleRanges&quot;:[]}}],&quot;prerequisite&quot;:{&quot;items&quot;:[{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;Die Login Seite meines Buchungssystems wurde erfolgreich aufgerufen&quot;}],&quot;styleRanges&quot;:[]}}]},&quot;qcDXmYweqWb6Ih02miiTFqJRGE7A4Yf7&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;invalid&quot;,&quot;expression&quot;:{&quot;kind&quot;:&quot;comparison&quot;,&quot;operator&quot;:&quot;EQUAL&quot;,&quot;operand&quot;:{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;invalid&quot;}}},&quot;z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL&quot;:{&quot;kind&quot;:&quot;custom&quot;,&quot;type&quot;:&quot;jira-issue&quot;,&quot;data&quot;:&quot;{\&quot;self\&quot;:\&quot;https://mbtdemo.atlassian.net/rest/api/3/issue/10438\&quot;,\&quot;key\&quot;:\&quot;SAM-2\&quot;}&quot;,&quot;rendering&quot;:&quot;SAM-2: As head of the security department I want that only persons with valid login credentials can use the hotel reservation plattform&quot;},&quot;HfFjZh8imanyj393MZe3SK6wE44qUeJt&quot;:{&quot;kind&quot;:&quot;string&quot;,&quot;value&quot;:&quot;invalid&quot;,&quot;expression&quot;:{&quot;kind&quot;:&quot;comparison&quot;,&quot;operator&quot;:&quot;EQUAL&quot;,&quot;operand&quot;:{&quot;kind&quot;:&quot;text&quot;,&quot;value&quot;:&quot;invalid&quot;}}}}}},&quot;bounds&quot;:[94,160,144,62]},{&quot;type&quot;:&quot;end&quot;,&quot;id&quot;:&quot;PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3&quot;,&quot;bounds&quot;:[150,258,31,31]}],&quot;connections&quot;:[{&quot;id&quot;:&quot;TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2&quot;,&quot;source&quot;:&quot;20tyUPwxMzA54LnrGis7V8NiQfy9ds3D&quot;,&quot;target&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;},{&quot;id&quot;:&quot;ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK&quot;,&quot;source&quot;:&quot;TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe&quot;,&quot;target&quot;:&quot;PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3&quot;}]}"/>
       <flowElements xsi:type="yest:StartPoint" id="20tyUPwxMzA54LnrGis7V8NiQfy9ds3D" name="" outgoings="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2"/>
-      <flowElements xsi:type="yest:Task" id="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe" name="I verify the login options" incomings="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2" outgoings="ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK">
+      <flowElements xsi:type="yest:Task" id="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe" name="Login Funktionalität prüfen" incomings="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2" outgoings="ulMYUeQbDnUJO0NB8AjLeHOzf8jYSLWK">
         <table>
+          <columns xsi:type="yest:DataColumn" id="HfFjZh8imanyj393MZe3SK6wE44qUeJt" type="SET" data="RpZnFbPArkWQX2Xck38GYTw9KSkPslOO"/>
+          <columns xsi:type="yest:DataColumn" id="qcDXmYweqWb6Ih02miiTFqJRGE7A4Yf7" type="SET" data="6jOWy103Nkp5wKdCFVM3WnMHEH0GW0IS"/>
           <columns xsi:type="yest:OperationColumn" id="hzYFcqpFueMQgpMHuWTzFyI36zjN6zml"/>
           <columns xsi:type="yest:CriterionColumn" id="z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL" criterionType="Story"/>
           <columns xsi:type="yest:CriterionColumn" id="a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5" criterionType="#objective"/>
           <decisions id="6CXVc5UV58LDz6Bl20LRivVF5Z4P44zG">
             <cells key="hzYFcqpFueMQgpMHuWTzFyI36zjN6zml">
               <value xsi:type="yest:OperationCell">
-                <operations reference="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
+                <operationInstances operation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
               </value>
             </cells>
             <cells key="z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL">
@@ -33,11 +35,17 @@
             <cells key="a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5">
               <value xsi:type="yest:StringCell" value="SuccessfullLogin"/>
             </cells>
+            <cells key="qcDXmYweqWb6Ih02miiTFqJRGE7A4Yf7">
+              <value xsi:type="yest:DataValueCell" value="wfS8x5y2mRCd9uN4zofeeOUPxlu21kaZ"/>
+            </cells>
+            <cells key="HfFjZh8imanyj393MZe3SK6wE44qUeJt">
+              <value xsi:type="yest:DataValueCell" value="QDyInkrXYi5BfTKiBZUBnJtHgGrkvmvM"/>
+            </cells>
           </decisions>
-          <decisions id="jTqW4G48NSrO9Txgl9kuoIbuSfAaf9RM">
+          <elseDecision id="jTqW4G48NSrO9Txgl9kuoIbuSfAaf9RM">
             <cells key="hzYFcqpFueMQgpMHuWTzFyI36zjN6zml">
               <value xsi:type="yest:OperationCell">
-                <operations reference="Eq5zcYMPlUkehjGW0q6R4d76whituOcz"/>
+                <operationInstances operation="Eq5zcYMPlUkehjGW0q6R4d76whituOcz"/>
               </value>
             </cells>
             <cells key="z4Z00xUhyuLoBZNpFQlRN1ueUzENbuZL">
@@ -46,7 +54,13 @@
             <cells key="a5rRh3JqZ0nlX2ewD8dthELISXAPVxk5">
               <value xsi:type="yest:StringCell" value="InvalidLogin"/>
             </cells>
-          </decisions>
+            <cells key="qcDXmYweqWb6Ih02miiTFqJRGE7A4Yf7">
+              <value xsi:type="yest:DataValueCell" value="3Y2G4Qq1Tpf2rzPTRacAsiFz3vn8L87K"/>
+            </cells>
+            <cells key="HfFjZh8imanyj393MZe3SK6wE44qUeJt">
+              <value xsi:type="yest:DataValueCell" value="KYXpBD8BOvY78nwjWaWWPv3ac5otYiAP"/>
+            </cells>
+          </elseDecision>
         </table>
       </flowElements>
       <flowElements xsi:type="yest:SequenceFlow" id="TXJMKFdAvlUY21lYycDdJA9KS1z5D3L2" name="" target="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe" source="20tyUPwxMzA54LnrGis7V8NiQfy9ds3D"/>
@@ -60,11 +74,11 @@
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
         </children>
         <children xsi:type="yest:TaskShape" visible="true" active="true" text="//@subFolders.0/@testElements.0/@diagram/@children.1/@children.0/@graphicsAlgorithm" flowNode="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe">
-          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="101" height="51" x="115" y="165" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
+          <graphicsAlgorithm xsi:type="al:RoundedRectangle" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.4" lineWidth="2" transparency="0.0" width="144" height="62" x="94" y="160" style="//@subFolders.0/@testElements.0/@diagram/@styles.1" cornerHeight="20" cornerWidth="20"/>
           <link businessObjects="TR6B0BhGRHoakdncXb1IoF3fe5lWPfoe"/>
           <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.1" incomingConnections="//@subFolders.0/@testElements.0/@diagram/@connections.0"/>
           <children xsi:type="pi:ContainerShape" visible="true">
-            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="87" height="37" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="I verify the login&#xD;&#xA;options"/>
+            <graphicsAlgorithm xsi:type="al:Text" foreground="//@subFolders.0/@testElements.0/@diagram/@colors.3" lineWidth="1" filled="false" transparency="0.0" width="130" height="48" x="7" y="7" font="//@subFolders.0/@testElements.0/@diagram/@fonts.0" horizontalAlignment="ALIGNMENT_CENTER" verticalAlignment="ALIGNMENT_TOP" value="Login Funktionalität&#xD;&#xA;prüfen"/>
           </children>
         </children>
         <children xsi:type="yest:EndPointShape" visible="true" active="true" flowNode="PkUnmpMgg9IVcTpQjAlsu4yENwsdhXW3">
@@ -211,14 +225,6 @@
         <fonts name="Segoe UI" size="9"/>
       </diagram>
     </testElements>
-    <testElements xsi:type="yest:TestScenario" id="dg1ykVzUkWSTDb9WscH2II9EeMvbC3eo" name="SuccessfullLogin" associatedWorkflow="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J">
-      <metadata key="PublisherId" value="de055274-fdf1-46f6-b329-0c12e8394fef"/>
-      <testActions id="IJco7X27BnP6U1c0C5QGW3dS6gymas4N" operation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
-    </testElements>
-    <testElements xsi:type="yest:TestScenario" id="RDvIGT7CFCn8NZJ4i00Ej18fDmsvsJiY" name="InvalidLogin" associatedWorkflow="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J">
-      <metadata key="PublisherId" value="4cac7d57-3918-4934-a146-48d4674af2d1"/>
-      <testActions id="y5s7uC0AvwMNd7oAQOJbDHXCS2vp2HQQ" operation="Eq5zcYMPlUkehjGW0q6R4d76whituOcz"/>
-    </testElements>
     <testElements xsi:type="yest:AutomationConfiguration" id="B7oykb7DrWEWmC2Rnb6S6VxBH174p41s" name="PublisherForLogin" publisherId="com.smartesting.publishers.cucumberxray.CucumberxrayEditor">
       <metadata key="PublisherId" value="2b2a4e78-9ff9-4e9a-91b3-f2c54f416635"/>
       <campaign folders="UFn1CgkoofrWD5Kq6CoYntaQRxkxAVez"/>
@@ -246,6 +252,38 @@
       <globalBefore/>
       <globalAfter/>
     </testElements>
+    <testElements xsi:type="yest:PublisherConfiguration" id="X3uurfS9DaiF078a2ANoNfTCeDrDy35V" name="PublisherForLogin - Manuelle TestCases" publisherId="com.smartesting.publishers.xray.XrayEditor">
+      <campaign folders="UFn1CgkoofrWD5Kq6CoYntaQRxkxAVez" dataSetCollections="V3GN0ejFCNsmoEvNrfNATe6QttfNPjm6">
+        <metadata key="useAllDataSetCollections" value="false"/>
+        <dataSetCombinations key="2F0DfGPUw8PjfPHAX3dERtxCsW4UZbY7">
+          <value id="Rp3LV6lELCsyfLs94CrwHog9fOcFNBKq" name="InvalidLogin">
+            <dataSets key="hmHSJnAz8YR3zG0AoZ4qNxzfYIc5SYN0" value="bYo7Xdsccx5TYex5sPEqry1rk6VToilf"/>
+          </value>
+        </dataSetCombinations>
+        <dataSetCombinations key="wfs85OC3AnR25NdWo06Y7sn411PQ8qoS">
+          <value id="FMZfop3BnTQZiiTIgD5dBZucHwSgD76g" name="SuccessfullLogin">
+            <dataSets key="ypqCupRshkKHlQfvWq66q0cbFee054tU" value="leE0Xm3NWHh1NvPMJVdbNncxsQHdvaRH"/>
+          </value>
+        </dataSetCombinations>
+      </campaign>
+      <parameters name="descriptionLevel" value="LowLevelDescriptionKind"/>
+      <parameters name="ProjectName" value="Smiles And More"/>
+      <parameters name="RepoFolderName" value="/Manuell/Login"/>
+      <parameters name="LinkedIssueType" value="Story"/>
+      <parameters name="BasicCreateTestSet" value="false"/>
+      <parameters name="BasicCreateTestPlan" value="false"/>
+      <parameters name="DeprecationPolicyType" value="Deprecation_Move"/>
+      <parameters name="Deprecation_Move_Folder" value="/Manuell/Deprecated"/>
+      <parameters name="InsertDataInSteps" value="true"/>
+      <parameters name="WithDesignDataStyle" value="true"/>
+      <parameters name="TestConfigurationMap" value="{&quot;XrayServerAddress&quot;:&quot;https://mbtdemo.atlassian.net&quot;,&quot;2F0DfGPUw8PjfPHAX3dERtxCsW4UZbY7&quot;:[&quot;SAM-6&quot;],&quot;wfs85OC3AnR25NdWo06Y7sn411PQ8qoS&quot;:[&quot;SAM-7&quot;]}"/>
+    </testElements>
+    <testElements xsi:type="yest:TestScenario" id="wfs85OC3AnR25NdWo06Y7sn411PQ8qoS" name="SuccessfullLogin" associatedWorkflow="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J">
+      <testActions operation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4" id="ypqCupRshkKHlQfvWq66q0cbFee054tU"/>
+    </testElements>
+    <testElements xsi:type="yest:TestScenario" id="2F0DfGPUw8PjfPHAX3dERtxCsW4UZbY7" name="InvalidLogin" associatedWorkflow="mQjs170vQQnPtnoUpvOyUF3Xl8RMzh2J">
+      <testActions operation="Eq5zcYMPlUkehjGW0q6R4d76whituOcz" id="hmHSJnAz8YR3zG0AoZ4qNxzfYIc5SYN0"/>
+    </testElements>
   </subFolders>
   <subFolders name="CreateHotelBookings" id="2OJKubefjF5qVAwhaP42M60BHLHizCiU">
     <testElements xsi:type="yest:Workflow" id="AJIMzdJbvk0rmo7bH7svM0bkHSQHOzLr" name="CreateHotelBookings">
@@ -256,7 +294,7 @@
           <decisions id="Q3VzfU5qeqFRqvOsDsOv5t3OlgVG0tkM">
             <cells key="VYS4IUm3dU54q9ddpGDCxAYVC8lyQuK0">
               <value xsi:type="yest:OperationCell">
-                <operations reference="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
+                <operationInstances operation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
               </value>
             </cells>
           </decisions>
@@ -270,7 +308,7 @@
           <decisions id="Q4Ay3PZ14uBDyuha9Ld0xsrJBDTtY2G1">
             <cells key="5qBr8V7iyPAAMysek0j2vVri3altXBye">
               <value xsi:type="yest:OperationCell">
-                <operations reference="oSpxQ6mcRerpOwGo8DE0v6Iwu5Knyn1A"/>
+                <operationInstances operation="oSpxQ6mcRerpOwGo8DE0v6Iwu5Knyn1A"/>
               </value>
             </cells>
             <cells key="S7sh6U1DBdn9zM7OmyHc9mUheQqXLVhk">
@@ -533,6 +571,12 @@
           <value id="L7z6NdXMOT4FepmrXst97l0xO77wwrO6" name="Data set">
             <dataSets key="jWcx52BLc9zKXYDtNmgqcZpWnzKh9Wi4" value="tzXgmjqKEFSlcKmgzEEYpBenvqFt59S7"/>
           </value>
+          <value id="APdtenwxtEjj6t3tFdFr47taQM5ABxS3" name="Data set">
+            <dataSets key="jWcx52BLc9zKXYDtNmgqcZpWnzKh9Wi4" value="WORk0FWUWe8vqBj5NXrPl982THBYosy5"/>
+          </value>
+          <value id="PSslzv001279EAvpkdg4jiqhnSk7Y3Pz" name="Data set">
+            <dataSets key="jWcx52BLc9zKXYDtNmgqcZpWnzKh9Wi4" value="UO7zmBZ3qFd99ldzy8gHMmpK5dTYJiag"/>
+          </value>
         </dataSetCombinations>
       </campaign>
       <parameters name="USE_IMPLEMENTATION_PARAMS" value="true"/>
@@ -569,31 +613,59 @@
       <globalAfter/>
     </testElements>
     <testElements xsi:type="yest:TestScenario" id="HFntJmAY9yjX6svsI8GyjySeaKfFRGLi" name="Generated test scenario" associatedWorkflow="AJIMzdJbvk0rmo7bH7svM0bkHSQHOzLr">
-      <testActions id="uENbYxsrXC2sAPFSglvrvZjzTKEPBdqC" operation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4"/>
-      <testActions id="jWcx52BLc9zKXYDtNmgqcZpWnzKh9Wi4" operation="oSpxQ6mcRerpOwGo8DE0v6Iwu5Knyn1A">
+      <testActions operation="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4" id="uENbYxsrXC2sAPFSglvrvZjzTKEPBdqC"/>
+      <testActions operation="oSpxQ6mcRerpOwGo8DE0v6Iwu5Knyn1A" id="jWcx52BLc9zKXYDtNmgqcZpWnzKh9Wi4">
         <dataFieldValues referencedDataField="rynLRivhrxw8d6PLUHw9uyUcTsIoUwWv" value="Qugz8cryErH2ymHTHdAi3J4HwVDcMlLU"/>
       </testActions>
     </testElements>
   </subFolders>
   <testElements xsi:type="yest:TestOperation" id="7sb9kCehNyMSnDYTEsRNT1OA0F34teo4">
+    <prerequisite>
+      <fragments xsi:type="yest:TextField" content="Die Login Seite meines Buchungssystems wurde erfolgreich aufgerufen"/>
+    </prerequisite>
     <highLevelStep>
       <action>
-        <fragments xsi:type="yest:TextField" content="I login with valid credentials"/>
+        <fragments xsi:type="yest:TextField" content="Ich logge mich mit gültigen Anmeldedaten im Buchungssystem ein"/>
       </action>
       <expectedResult>
-        <fragments xsi:type="yest:TextField" content="The system shows the welcome screen"/>
+        <fragments xsi:type="yest:TextField" content="Die Startseite des Buchungssystems wird angezeigt"/>
       </expectedResult>
     </highLevelStep>
+    <lowLevelSteps>
+      <action>
+        <fragments xsi:type="yest:TextField" content="Ich logge mich mit gültigen Anmeldedaten im Buchungssystem ein.&#xD;&#xA;User: "/>
+        <fragments xsi:type="yest:DataField" id="wZmodGFQmjYfJwTOwRIdhsAjaFCvNpSe" data="G3AmeNs58iOkCnQvlHIXFxiZic0lrRRy"/>
+        <fragments xsi:type="yest:TextField" content="&#xD;&#xA;Passwort: "/>
+        <fragments xsi:type="yest:DataField" id="xD5VWInDKRu6rx9bvUCugCuVSl8UKMVt" data="aCEi9ap9Z4Qnu8nhfKqoukv415lXn4TF"/>
+      </action>
+      <expectedResult>
+        <fragments xsi:type="yest:TextField" content="Die Startseite des Buchungssystems wird angezeigt"/>
+      </expectedResult>
+    </lowLevelSteps>
   </testElements>
   <testElements xsi:type="yest:TestOperation" id="Eq5zcYMPlUkehjGW0q6R4d76whituOcz">
+    <prerequisite>
+      <fragments xsi:type="yest:TextField" content="Die Login Seite meines Buchungssystems wurde erfolgreich aufgerufen"/>
+    </prerequisite>
     <highLevelStep>
       <action>
-        <fragments xsi:type="yest:TextField" content="I login with invalid credentials"/>
+        <fragments xsi:type="yest:TextField" content="Ich versuche mich mit ungültigen Zugangsdaten im System anzumelden"/>
       </action>
       <expectedResult>
-        <fragments xsi:type="yest:TextField" content="The system shows an error"/>
+        <fragments xsi:type="yest:TextField" content="Das System zeigt mir eine Fehlermeldung und ich bin nicht eingeloggt."/>
       </expectedResult>
     </highLevelStep>
+    <lowLevelSteps>
+      <action>
+        <fragments xsi:type="yest:TextField" content="Ich versuche mich mit ungültigen Zugangsdaten im System anzumelden.&#xD;&#xA;User: "/>
+        <fragments xsi:type="yest:DataField" id="gaazooWWrCdoWva6a5R6l6KQEF5qvMW0" data="G3AmeNs58iOkCnQvlHIXFxiZic0lrRRy"/>
+        <fragments xsi:type="yest:TextField" content="&#xD;&#xA;Passwort: "/>
+        <fragments xsi:type="yest:DataField" id="rGcS1IVo4HARZlIW1svuAxws46JihlkF" data="aCEi9ap9Z4Qnu8nhfKqoukv415lXn4TF"/>
+      </action>
+      <expectedResult>
+        <fragments xsi:type="yest:TextField" content="Das System zeigt mir eine Fehlermeldung und ich bin nicht eingeloggt."/>
+      </expectedResult>
+    </lowLevelSteps>
   </testElements>
   <testElements xsi:type="yest:TestOperation" id="oSpxQ6mcRerpOwGo8DE0v6Iwu5Knyn1A">
     <highLevelStep>
@@ -623,6 +695,32 @@
         </values>
       </datas>
     </subCategories>
+    <subCategories xsi:type="yest:DesignDataCategory" id="4aLczx8ZRlW8uTCIl2SG3VeFqqFfdH1y" name="Login Information">
+      <datas xsi:type="yest:DesignData" name="UserName" id="RpZnFbPArkWQX2Xck38GYTw9KSkPslOO">
+        <values id="QDyInkrXYi5BfTKiBZUBnJtHgGrkvmvM">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="valid"/>
+          </definition>
+        </values>
+        <values id="KYXpBD8BOvY78nwjWaWWPv3ac5otYiAP" defined="true">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="invalid"/>
+          </definition>
+        </values>
+      </datas>
+      <datas xsi:type="yest:DesignData" name="Password" id="6jOWy103Nkp5wKdCFVM3WnMHEH0GW0IS">
+        <values id="wfS8x5y2mRCd9uN4zofeeOUPxlu21kaZ">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="valid"/>
+          </definition>
+        </values>
+        <values id="3Y2G4Qq1Tpf2rzPTRacAsiFz3vn8L87K" defined="true">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="invalid"/>
+          </definition>
+        </values>
+      </datas>
+    </subCategories>
   </designDataDictionary>
   <implementationDataDictionary id="XHWpBTFqUoo1jTLAVQRJvHDYqLvGct5Q" name="#implementationDataDictionary">
     <datas xsi:type="yest:ImplementationData" name="locations" id="vywIzJw5KjERESV14O4SFU4q9F6u81ID">
@@ -636,7 +734,43 @@
           <operand xsi:type="yest:TextLiteral" value="Brisbane"/>
         </definition>
       </values>
+      <values id="qozBembLcNedVAPaDdR6FTFeDv9xS456">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="Paris"/>
+        </definition>
+      </values>
+      <values id="c2ObKe5PnZtyXesxsZyQdNvgZw6y3ESX">
+        <definition>
+          <operand xsi:type="yest:TextLiteral" value="Frankfurt"/>
+        </definition>
+      </values>
     </datas>
+    <subCategories xsi:type="yest:ImplementationDataCategory" id="qEEijLiixp3LiDANmtFeQMeQsboUAqGR" name="Login">
+      <datas xsi:type="yest:ImplementationData" name="impUserName" id="G3AmeNs58iOkCnQvlHIXFxiZic0lrRRy">
+        <values id="w4QLrkyII1DEDcU8SxMEJXNks1jrkUv1">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="Demo"/>
+          </definition>
+        </values>
+        <values id="7E2HpCRzoBBiK8soSFwaFuD9vwpk7ad7">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="HappyTravel"/>
+          </definition>
+        </values>
+      </datas>
+      <datas xsi:type="yest:ImplementationData" name="impPassword" id="aCEi9ap9Z4Qnu8nhfKqoukv415lXn4TF">
+        <values id="0DbiVncU7kLCU3dcSkHbqgLHJ2Mis5bz">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="123456"/>
+          </definition>
+        </values>
+        <values id="9x7sgsv7WX6Hwg66iGXDTmKQuKAQlDlN">
+          <definition>
+            <operand xsi:type="yest:TextLiteral" value="VukQHn9HGo22TncYmrP"/>
+          </definition>
+        </values>
+      </datas>
+    </subCategories>
   </implementationDataDictionary>
   <dataSetCatalog name="#catalog" id="ktK76OMmsYRB4vZtot3s5hJee9xyRW7r">
     <dataSetCollections name="Data set collection" id="d362gn3gdv7LnFR3Uea7IacDhCcL1eth">
@@ -648,6 +782,30 @@
         <values data="zYYi4tL2acIInM2e19aZKO86xnIJCePr" value="Qugz8cryErH2ymHTHdAi3J4HwVDcMlLU"/>
         <values data="vywIzJw5KjERESV14O4SFU4q9F6u81ID" value="Kfz9LCMt9opLsX2sxfYnqZ1q9VcK8GCM"/>
       </dataSets>
+      <dataSets name="Data set" id="WORk0FWUWe8vqBj5NXrPl982THBYosy5">
+        <values data="zYYi4tL2acIInM2e19aZKO86xnIJCePr" value="Qugz8cryErH2ymHTHdAi3J4HwVDcMlLU"/>
+        <values data="vywIzJw5KjERESV14O4SFU4q9F6u81ID" value="qozBembLcNedVAPaDdR6FTFeDv9xS456"/>
+      </dataSets>
+      <dataSets name="Data set" id="UO7zmBZ3qFd99ldzy8gHMmpK5dTYJiag">
+        <values data="zYYi4tL2acIInM2e19aZKO86xnIJCePr" value="Qugz8cryErH2ymHTHdAi3J4HwVDcMlLU"/>
+        <values data="vywIzJw5KjERESV14O4SFU4q9F6u81ID" value="c2ObKe5PnZtyXesxsZyQdNvgZw6y3ESX"/>
+      </dataSets>
     </dataSetCollections>
+    <subCategories name="Login" id="mwapTzkNHiqMLrt4Vvgmgm5SibfqcRXx">
+      <dataSetCollections name="LoginData" id="V3GN0ejFCNsmoEvNrfNATe6QttfNPjm6">
+        <dataSets name="InvalidLogin" id="bYo7Xdsccx5TYex5sPEqry1rk6VToilf">
+          <values data="RpZnFbPArkWQX2Xck38GYTw9KSkPslOO" value="KYXpBD8BOvY78nwjWaWWPv3ac5otYiAP"/>
+          <values data="G3AmeNs58iOkCnQvlHIXFxiZic0lrRRy" value="w4QLrkyII1DEDcU8SxMEJXNks1jrkUv1"/>
+          <values data="6jOWy103Nkp5wKdCFVM3WnMHEH0GW0IS" value="3Y2G4Qq1Tpf2rzPTRacAsiFz3vn8L87K"/>
+          <values data="aCEi9ap9Z4Qnu8nhfKqoukv415lXn4TF" value="0DbiVncU7kLCU3dcSkHbqgLHJ2Mis5bz"/>
+        </dataSets>
+        <dataSets name="SuccessfullLogin" id="leE0Xm3NWHh1NvPMJVdbNncxsQHdvaRH">
+          <values data="RpZnFbPArkWQX2Xck38GYTw9KSkPslOO" value="QDyInkrXYi5BfTKiBZUBnJtHgGrkvmvM"/>
+          <values data="G3AmeNs58iOkCnQvlHIXFxiZic0lrRRy" value="7E2HpCRzoBBiK8soSFwaFuD9vwpk7ad7"/>
+          <values data="6jOWy103Nkp5wKdCFVM3WnMHEH0GW0IS" value="wfS8x5y2mRCd9uN4zofeeOUPxlu21kaZ"/>
+          <values data="aCEi9ap9Z4Qnu8nhfKqoukv415lXn4TF" value="9x7sgsv7WX6Hwg66iGXDTmKQuKAQlDlN"/>
+        </dataSets>
+      </dataSetCollections>
+    </subCategories>
   </dataSetCatalog>
 </yest:Project>

@@ -13,5 +13,7 @@ Examples:
 	| locations	|
 	| Sydney   	|
 	| Brisbane 	|
+	| Paris    	|
+	| Frankfurt	|
 
 
